@@ -1,0 +1,13 @@
+# Complied source #
+###################
+
+bin
+rsa
+*.class
+
+# Miscellaneous files #
+#######################
+
+.classpath
+.project
+*~
