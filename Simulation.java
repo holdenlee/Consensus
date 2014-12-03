@@ -13,7 +13,8 @@ import java.util.HashMap;
 public class Simulation {
 
    public static void main(String[] args) {
-
+	  String[] args2 = {".1", ".15", ".01", "10"};
+	  args = args2;
       // There are four required command line arguments: p_graph (.1, .2, .3),
       // p_malicious (.15, .30, .45), p_txDistribution (.01, .05, .10), 
       // and numRounds (10, 20). You should try to test your CompliantNode

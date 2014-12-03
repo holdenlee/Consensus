@@ -24,6 +24,7 @@ public class CompliantNode implements Node {
 		// TODO Auto-generated constructor stub
 		numFs=0;
 		rounds=0;
+		votes = new HashMap<Integer,Integer>();
 	}
 
 	//id of tx, then id of broadcaster
